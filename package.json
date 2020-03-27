@@ -2,7 +2,7 @@
   "name": "brain-games",
   "version": "1.0.0",
   "description": "my first package",
-  "main": "src/index.js",
+  "main": "/home/vala/frontend-project-lvl1/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,8 @@
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
