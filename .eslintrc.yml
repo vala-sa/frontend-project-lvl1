@@ -7,8 +7,8 @@ plugins:
 - babel
 env:
 # https://eslint.org/docs/user-guide/configuring#specifying-environments
-	node: true
-	jest: true
+node: true
+jest: true
 parser:
 # https://github.com/babel/babel-eslint
 - babel-eslint
@@ -16,7 +16,7 @@ extends:
 - 'airbnb-base'
 - 'plugin:/jest-recomended'
 rules:
-	no-console: 0
-	import/extensions: 0
+no-console: 0
+import/extensions: 0
 	
   
