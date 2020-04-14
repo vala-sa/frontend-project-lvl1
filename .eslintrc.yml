@@ -1,20 +1,20 @@
 ---
 
 plugins:
-	# https://github.com/jest-community/eslint-plugin-jest
-	- jest
-	# https://github.com/babel/eslint-plugin-babel
-	- babel
+# https://github.com/jest-community/eslint-plugin-jest
+- jest
+# https://github.com/babel/eslint-plugin-babel
+- babel
 env:
-	# https://eslint.org/docs/user-guide/configuring#specifying-environments
+# https://eslint.org/docs/user-guide/configuring#specifying-environments
 	node: true
 	jest: true
 parser:
-	# https://github.com/babel/babel-eslint
-	- babel-eslint
+# https://github.com/babel/babel-eslint
+- babel-eslint
 extends:
-	- 'airbnb-base'
-	- 'plugin:/jest-recomended'
+- 'airbnb-base'
+- 'plugin:/jest-recomended'
 rules:
 	no-console: 0
 	import/extensions: 0
